@@ -86,6 +86,20 @@ p {
   margin: 0px 30px;
 }
 
+.mainPageProductAllInfo{
+	float:left;
+  	border: 3px solid #73AD21;
+  	width: 24%;
+  	text-align: center;
+}
+
+/*.mainPageProductAllInfoCenter{
+	float: left;
+  	border: 3px solid #73AD21;
+  	width: 20%;
+  	text-align: center;
+}*/
+
 .mainPageProductImage{
 	height: 12em;
   	margin: 20px 65px 0px;
