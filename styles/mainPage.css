@@ -42,6 +42,15 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #207cca;
+    background-color:#207cca;
+    color:#fafafa;
+}
+
 .footer{
     background-color: rgb(110,129,84);
     font-family: 'Lato', sans-serif;
@@ -88,7 +97,7 @@ p {
 
 .mainPageProductAllInfo{
 	float:left;
-  	border: 3px solid #73AD21;
+  	/*border: 3px solid #73AD21;*/
   	width: 24%;
   	text-align: center;
 }
@@ -104,13 +113,13 @@ p {
 	height: 12em;
   	margin: 20px 65px 0px;
   	width: 12em;
-  	border: 3px solid #73AD21;
+  	/*border: 3px solid #73AD21;*/
 }
 
 .popularProducts{
     margin: auto;
     width: 90%;
-    border: 3px solid #73AD21;
+    /*border: 3px solid #73AD21;*/
     padding: 10px;
 }
 
