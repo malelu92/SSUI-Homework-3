@@ -68,17 +68,9 @@ p {
     padding: 0;
 }
 
-.left_arrow{
-	position: absolute;
-	left: 50px;
-    top: 350px;
-}
-
-.left_arrow_products{
-	height: 70px;
-	position: absolute;
-	left: 50px;
-    top: 850px;
+.leftScreen{
+	border: 3px solid #73AD21;
+  width: 50%;
 }
 
 .muddyPawsImage{
@@ -89,10 +81,8 @@ p {
   	width: 95px;
 }
 
-.mainPageImage{
-  width: 90em;
-  height: 30em;
-  margin: 0px 30px;
+.mainScreen{
+  display: flex;
 }
 
 .mainPageProductAllInfo{
@@ -136,17 +126,9 @@ p {
     padding: 10px;
 }
 
-.right_arrow{
-	position: absolute;
-	right: 50px;
-    top: 350px;
-}
-
-.right_arrow_products{
-	height: 70px;
-	position: absolute;
-	right: 50px;
-    top: 850px;
+.rightScreen{
+  border: 3px solid #73AD21;
+  width: 50%;
 }
 
 .search{
