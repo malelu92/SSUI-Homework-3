@@ -88,7 +88,7 @@ p {
 
 .mainPageProductImage{
 	height: 12em;
-  	margin: 20px 65px;
+  	margin: 20px 65px 0px;
   	width: 12em;
   	border: 3px solid #73AD21;
 }
@@ -156,6 +156,10 @@ p {
 	position: absolute;
 	right: 50px;
 	top: 57px;
+}
+
+.starsMainPage{
+	height: 15px;
 }
 
 .textBox{
