@@ -116,6 +116,19 @@ p {
   border: 3px solid #73AD21;
 }
 
+.productMiniCards{
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+    /*padding: 15px;
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    top: 590px;
+    left: 450px;*/
+    border: 2px solid #999999;
+}
+
 .popularProducts{
     margin: auto;
     width: 90%;
@@ -183,21 +196,6 @@ p {
 
 .starsMainPage{
 	height: 15px;
-}
-
-.textBox{
-    background-color: rgb(110,129,84);
-    border-radius: 10px;
-    font-family: 'Lato', sans-serif;
-    height: 50px;
-    width: 600px;
-    /*margin: auto;*/
-    padding: 15px;
-    position: absolute;
-    text-align: center;
-    align-self: center;
-    top: 590px;
-    left: 450px;
 }
 
 .topnav {
