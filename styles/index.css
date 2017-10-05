@@ -25,6 +25,13 @@ h1 {
   font-family: 'Lato', sans-serif;
 }*/
 
+.footer{
+    background-color: rgb(110,129,84);
+    font-family: 'Lato', sans-serif;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
 
 .header{
     background-color: rgb(110,129,84);
@@ -33,8 +40,21 @@ h1 {
     padding: 0;
 }
 
+.left_arrow{
+	position: absolute;
+	left: 50px;
+    top: 400px;
+}
+
+.left_arrow_products{
+	height: 70px;
+	position: absolute;
+	left: 50px;
+    top: 850px;
+}
+
 .muddyPawsImage{
-	position: relative;
+	/*position: relative;*/
     left: 30px;
   	width: 7em;
 }
@@ -45,15 +65,75 @@ h1 {
   margin: 30px;
 }
 
+.mainPageProductImage{
+	height: 12em;
+  	margin: 70px;
+  	width: 12em;
+}
+
+.right_arrow{
+	position: absolute;
+	right: 50px;
+    top: 400px;
+}
+
+.right_arrow_products{
+	height: 70px;
+	position: absolute;
+	right: 50px;
+    top: 850px;
+}
+
+.search{
+	/*align-self: center;*/
+	/*margin: auto;*/
+ 	top: 50%;
+ 	left:50%;
+}
+
+.searchBar {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 22px;
+  padding: 6px;
+}
+
+.searchButton {
+  /*position: absolute;  
+  right: -50px;*/
+  width: 40px;
+  height: 36px;
+  /*border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;*/
+}
+
+.shoppingCartImage{
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	right: 100px;
+	top: 20px;
+}
+
 .textBox{
     background-color: rgb(110,129,84);
+    border-radius: 10px;
     font-family: 'Lato', sans-serif;
     height: 50px;
     width: 600px;
-    margin: auto;
+    /*margin: auto;*/
     padding: 15px;
-    text-align:center;
+    position: absolute;
+    text-align: center;
     align-self: center;
+    top: 640px;
+    left: 450px;
 }
 
 .topnav {
