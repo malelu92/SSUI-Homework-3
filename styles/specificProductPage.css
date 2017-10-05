@@ -51,6 +51,24 @@ p {
     color:#fafafa;
 }
 
+.buttonCart {
+    border-radius: 10px;
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #B2C49D;
+    background-color:#D2D420;
+    /*color:#fafafa;*/
+}
+
+.colorChoice {
+    border-radius: 5px;
+    height: 25px;
+    width: 25px;
+    border: 2px solid #000000;
+
+}
+
 .footer{
     background-color: rgb(110,129,84);
     font-family: 'Lato', sans-serif;
