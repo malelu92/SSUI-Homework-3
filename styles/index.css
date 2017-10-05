@@ -3,7 +3,8 @@ a {
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 	text-decoration: none;
-	padding: 20;
+	padding: 10px 5px;
+	display: block;
 }
 
 /* mouse over link */
@@ -20,17 +21,35 @@ h1 {
   color: orangered;
 }
 
-/*p {
-  text-align: left;
+li {
+	float: left;
+	padding: 5px 30px;
+}
+
+li a {
+    display: block;
+    padding: 8px 16px;
+    width: 60px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
   font-family: 'Lato', sans-serif;
-}*/
+}
 
 .footer{
     background-color: rgb(110,129,84);
     font-family: 'Lato', sans-serif;
-    height: 50px;
-    margin: 0;
-    padding: 0;
+    font-weight: bold;
+    height: 40px;
+    /*margin: 0;*/
+    /*padding: 10;*/
+    text-align: center;
 }
 
 .header{
@@ -43,7 +62,7 @@ h1 {
 .left_arrow{
 	position: absolute;
 	left: 50px;
-    top: 400px;
+    top: 350px;
 }
 
 .left_arrow_products{
@@ -64,19 +83,27 @@ h1 {
 .mainPageImage{
   width: 90em;
   height: 30em;
-  margin: 30px;
+  margin: 0px 30px;
 }
 
 .mainPageProductImage{
 	height: 12em;
-  	margin: 70px;
+  	margin: 20px 65px;
   	width: 12em;
+  	border: 3px solid #73AD21;
+}
+
+.popularProducts{
+    margin: auto;
+    width: 90%;
+    border: 3px solid #73AD21;
+    padding: 10px;
 }
 
 .right_arrow{
 	position: absolute;
 	right: 50px;
-    top: 400px;
+    top: 350px;
 }
 
 .right_arrow_products{
@@ -142,12 +169,12 @@ h1 {
     position: absolute;
     text-align: center;
     align-self: center;
-    top: 640px;
+    top: 590px;
     left: 450px;
 }
 
 .topnav {
     background-color: rgb(63,74,48);
-    height: 50px;
+    height: 30px;
     padding: 10px 25px;
 }
