@@ -97,6 +97,7 @@ p {
 .leftScreen{
 	border: 3px solid #73AD21;
   width: 25%;
+  margin: 0px 20px;
 }
 
 .muddyPawsImage{
@@ -111,11 +112,8 @@ p {
   display: flex;
 }
 
-.mainPageProductAllInfo{
-	float:left;
-  	/*border: 3px solid #73AD21;*/
-  	width: 24%;
-  	text-align: center;
+.productInfo{
+	border: 3px solid #73AD21;
 }
 
 /*.mainPageProductAllInfoCenter{
@@ -210,4 +208,8 @@ p {
     background-color: rgb(63,74,48);
     height: 30px;
     padding: 10px 25px;
+}
+
+.verticalLine {
+  border-left: solid #979797;
 }
