@@ -122,9 +122,9 @@ p {
 }*/
 
 .productImage{
-	height: 30em;
+	height: 300px;
   margin: 20px 65px;
-  width: 30em;
+  width: 300px;
   border: 3px solid #73AD21;
 }
 
