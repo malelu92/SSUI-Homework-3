@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
 
   <!--The following line loads in your JS script-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
   <script src="scripts/specificProductsPage.js"></script>
 </head>
 
@@ -81,7 +82,7 @@
 
     <div style="display:flex">
       <p>Quantity</p>
-      <select>
+      <select id="quantity">
         <option value="one">1</option>
         <option value="two">2</option>
         <option value="three">3</option>
@@ -91,7 +92,7 @@
     </div>
 
     <br><br><br>
-    <input type="button" id="addItem" onclick="teste()" class="buttonCart" value="ADD TO CART">
+    <input type="button" id="addItem" onclick="addToCart()" class="buttonCart" value="ADD TO CART">
   </div>
 
   </div>

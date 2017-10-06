@@ -1,7 +1,4 @@
-$("#addItem").click(function () {
-	alert("test");
-});
-
-function teste() {
-	alert("hi");
+function addToCart() {
+	var qty = $("#quantity").find(":selected").text();
+	alert(qty);
 }
