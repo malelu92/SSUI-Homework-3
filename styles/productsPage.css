@@ -92,7 +92,7 @@ p {
 
 .leftScreen{
 	border: 3px solid #73AD21;
-  width: 50%;
+  width: 25%;
 }
 
 .muddyPawsImage{
@@ -122,9 +122,9 @@ p {
 }*/
 
 .productImage{
-	height: 300px;
+	height: 250px;
   margin: 20px 65px;
-  width: 300px;
+  width: 250px;
   border: 3px solid #73AD21;
 }
 
@@ -150,7 +150,7 @@ p {
 
 .rightScreen{
   border: 3px solid #73AD21;
-  width: 50%;
+  width: 75%;
 }
 
 .search{
