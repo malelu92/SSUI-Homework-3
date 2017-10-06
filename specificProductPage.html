@@ -36,14 +36,14 @@
   </div>
   <!--<script src="js/todo.js"></script>-->
 
-  <p">Products > Dog harness > Coastal harness</p>
+  <p class="productFlow">Products > Dog harness > Coastal harness</p>
 
   <br><br>
 
   <div class="mainScreen">
   <div class="leftScreen">
       <img src="./resources/images/dog_harness1.jpg" class="productImage" alt="orange dog harness"></img>
-      <div class="popularProducts">
+      <div class="productGroupCards">
         <img class="productMiniCards" src="./resources/images/dog_harness1.jpg" class="productMiniImage" alt="orange dog harness"></img>
         <img class="productMiniCards" src="./resources/images/dog_harness1_2.jpg" class="productMiniImage" alt="orange dog harness"></img>
         <img class="productMiniCards" src="./resources/images/dog_harness1.jpg" class="productMiniImage" alt="orange dog harness"></img>
@@ -53,12 +53,22 @@
   <div class="rightScreen">
     <p style="font-size:300%;">Dog harness 3000</p>
     <div style="display:flex">
+      <p>
       <img src="./resources/images/five_stars.png" class="starsMainPage" alt="five stars rating image"></img>
-      <p>customer review</p>
+      customer review</p>
     </div>
     <p style="font-size:250%;">U$ 25,90</p>
 
-    <p>Size</p>
+    <div style="display:flex">
+      <p>Size</p>
+      <select>
+        <option value="tiny">Tiny</option>
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select>
+    </div>
+
     <div style="display:flex">
       <p>Color</p>
       <div class="colorChoice" style="background-color: #b32222"></div>
@@ -69,7 +79,16 @@
       <div class="colorChoice" style="background-color: #f3540a"></div>
     </div>
 
-    <p>Quantity</p>
+    <div style="display:flex">
+      <p>Quantity</p>
+      <select>
+        <option value="one">1</option>
+        <option value="two">2</option>
+        <option value="three">3</option>
+        <option value="four">4</option>
+        <option value="five">5</option>
+      </select>
+    </div>
 
     <br><br><br>
     <input type="button" class="buttonCart" value="ADD TO CART">

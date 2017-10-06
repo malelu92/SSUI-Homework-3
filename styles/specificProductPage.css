@@ -107,19 +107,24 @@ p {
   display: flex;
 }
 
-.mainPageProductAllInfo{
-	float:left;
-  	/*border: 3px solid #73AD21;*/
-  	width: 24%;
-  	text-align: center;
-}
-
 /*.mainPageProductAllInfoCenter{
 	float: left;
   	border: 3px solid #73AD21;
   	width: 20%;
   	text-align: center;
 }*/
+
+.productFlow {
+  font-family: 'Lato', sans-serif;
+  margin: 10px 20px;
+  font-size: 20px;
+}
+
+.productGroupCards{
+  border: 3px solid #73AD21;
+  margin-left: 60px;
+  margin-right: 150px;
+}
 
 .productImage{
 	height: 30em;
@@ -132,6 +137,7 @@ p {
     border-radius: 10px;
     height: 80px;
     width: 80px;
+    margin-left: 50px;
     /*padding: 15px;
     position: absolute;
     text-align: center;
