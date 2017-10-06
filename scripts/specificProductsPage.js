@@ -1,4 +1,4 @@
 function addToCart() {
 	var qty = $("#quantity").find(":selected").text();
-	alert(qty);
+	document.getElementById("qtyItems").innerHTML = qty + " items"
 }
