@@ -42,13 +42,21 @@
 
   <div style="display:flex">
     <div class="leftScreen">
-      <p>Filter by:</p>
+      <p style="font-size:200%;">Filter by:</p>
 
-      <p>Animal</p>
-      <input id="checkBox" type="checkbox"><p>Dogs</p>
-      <input id="checkBox" type="checkbox"><p>Cats</p>
+      <p style="font-size:130%;">Animal</p>
+      <div>
+        <input id="checkBox" type="checkbox" id="dogsCheckbox">
+        <label for="dogsCheckbox" class="checkboxText">Dogs</label>
+      </div>
+      <div>
+        <input id="checkBox" type="checkbox" id="catsCheckbox">
+        <label for="catsCheckbox" class="checkboxText">Cats</label>
+      </div>
 
-      <p>Customer review</p>
+      <br><br>
+
+      <p style="font-size:130%;">Customer review</p>
       <input id="checkBox" type="checkbox">
       <img src="./resources/images/five_stars.png" class="starsMainPage" alt="five stars rating image"></img><br>
       <input id="checkBox" type="checkbox">
@@ -60,13 +68,31 @@
       <input id="checkBox" type="checkbox">
       <img src="./resources/images/one_star.jpg" class="starsMainPage" alt="one star rating image"></img><br>
 
-      <p>Price</p>
-      <input id="checkBox" type="checkbox"><p>Under U$ 10</p>
-      <input id="checkBox" type="checkbox"><p>U$ 10 to U$25</p>
-      <input id="checkBox" type="checkbox"><p>U$ 25 to U$50</p>
-      <input id="checkBox" type="checkbox"><p>U$ 50 to U$100</p>
-      <input id="checkBox" type="checkbox"><p>Above U$ 100</p>
+      <br><br>
 
+      <p style="font-size:130%;">Price</p>
+      <div>
+        <input id="checkBox" type="checkbox" id="under10Checkbox">
+        <label for="under10Checkbox" class="checkboxText">Under U$ 10</label>
+      </div>
+      <div>
+        <input id="checkBox" type="checkbox" id="10to25Checkbox">
+        <label for="10to25Checkbox" class="checkboxText">U$ 10 to U$25</label>
+      </div>
+      <div>
+        <input id="checkBox" type="checkbox" id="25to50Checkbox">
+        <label for="25to50Checkbox" class="checkboxText">U$ 25 to U$50</label>
+      </div>
+      <div>
+        <input id="checkBox" type="checkbox" id="50to100Checkbox">
+        <label for="25to50Checkbox" class="checkboxText">U$ 50 to U$100</label>
+      </div>
+      <div>
+        <input id="checkBox" type="checkbox" id="above100Checkbox">
+        <label for="25to50Checkbox" class="checkboxText">Above U$ 100</label>
+      </div>
+
+      <br><br><br><br><br><br>
       <input type="button" class="buttonCart" value="FILTER">
     </div>
 
@@ -126,36 +152,6 @@
     </div>
   </div>
   </div>
-
-  <div class="mainScreen">
-
-  <div class="rightScreen">
-    <p style="font-size:300%;">Dog harness 3000</p>
-    <div style="display:flex">
-      <img src="./resources/images/five_stars.png" class="starsMainPage" alt="five stars rating image"></img>
-      <p>customer review</p>
-    </div>
-    <p style="font-size:250%;">U$ 25,90</p>
-
-    <p>Size</p>
-    <div style="display:flex">
-      <p>Color</p>
-      <div class="colorChoice" style="background-color: #b32222"></div>
-      <div class="colorChoice" style="background-color: #000000"></div>
-      <div class="colorChoice" style="background-color: #1c5699"></div>
-      <div class="colorChoice" style="background-color: #366339"></div>
-      <div class="colorChoice" style="background-color: #f6f6f0"></div>
-      <div class="colorChoice" style="background-color: #f3540a"></div>
-    </div>
-
-    <p>Quantity</p>
-
-    <br><br><br>
-    <input type="button" class="buttonCart" value="ADD TO CART">
-  </div>
-
-  </div>
-
 
   <div class="footer">
     <p>CONTACT US</p>
