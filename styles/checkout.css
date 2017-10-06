@@ -46,6 +46,11 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
+.checkoutCardInfo {
+  margin-left: 7em;
+  margin-top: 6em;
+}
+
 .button {
     position:relative;
     padding:6px 15px;
@@ -58,10 +63,10 @@ p {
 .buttonCart {
     border-radius: 10px;
     position:relative;
-    padding:6px 15px;
-    left:-8px;
-    height: 60px;
-    width: 320px;
+    /*padding:6px 15px;*/
+    left:70px;
+    height: 50px;
+    width: 220px;
     border:2px solid #B2C49D;
     background-color:#D2D420;
     font-size: 20px;
@@ -94,9 +99,13 @@ p {
     padding: 0;
 }
 
+.horizontalLine {
+  border-top: solid #979797;
+}
+
 .leftScreen{
 	border: 3px solid #73AD21;
-  width: 80%;
+  width: 75%;
   /*margin: 0px 20px;*/
 }
 
@@ -112,9 +121,9 @@ p {
   display: flex;
 }
 
-.productInfo{
+/*.productInfo{
 	border: 3px solid #73AD21;
-}
+}*/
 
 /*.mainPageProductAllInfoCenter{
 	float: left;
@@ -152,7 +161,7 @@ p {
 
 .rightScreen{
   border: 3px solid #73AD21;
-  width: 20%;
+  width: 25%;
 }
 
 .search{
