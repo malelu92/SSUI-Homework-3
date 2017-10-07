@@ -1,20 +1,19 @@
 function addToCart(){
     var selectTag = document.getElementsByTagName("select");
     var totalTags = selectTag.length;
-    var output = "";
+    var selectedValues = [];
+    var totalValues;
     for(var i=0; i<totalTags; i++){
-        output += selectTag[i].name + ":\n";
-        for(var j=0, lenj=selectTag[i].options.length; j<lenj; j++){
+    	totalValues = selectTag[i].options.length;
+        for(var j=0; j<totalValues; j++){
         	if(selectTag[i].options[j].selected) {
-            output += "\t- " 
-                   //+ s[i].options[j].value 
-                   + " (" + selectTag[i].options[j].text + "): " 
-                   + (selectTag[i].options[j].selected ? 'Yes' : 'No') 
-                   + "\n";
+        		selectedValues.push(selectTag[i].options[j].text);
             }
         }
     }
-    alert(output);
+    for (var i = 0; i < 2; i++){
+    	console.log(selectedValues[i]);
+	}
 }
 
 /*function addToCart() {
