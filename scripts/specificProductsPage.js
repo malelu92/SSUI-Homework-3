@@ -1,19 +1,21 @@
 function addToCart(){
-    var selectTag = document.getElementsByTagName("select");
-    var totalTags = selectTag.length;
-    var selectedValues = [];
-    var totalValues;
-    for(var i=0; i<totalTags; i++){
-    	totalValues = selectTag[i].options.length;
+	size = getProductSelectChoice("size");
+	qty = getProductSelectChoice("quantity");
+
+	console.log(size)
+	console.log(qty)
+}
+
+function getProductSelectChoice (id) {
+    var selectTag = document.getElementById(id);
+    var totalValues, size;
+
+    totalValues = selectTag.options.length;
         for(var j=0; j<totalValues; j++){
-        	if(selectTag[i].options[j].selected) {
-        		selectedValues.push(selectTag[i].options[j].text);
+        	if(selectTag.options[j].selected) {
+        		return selectTag.options[j].text;
             }
         }
-    }
-    for (var i = 0; i < 2; i++){
-    	console.log(selectedValues[i]);
-	}
 }
 
 /*function addToCart() {
