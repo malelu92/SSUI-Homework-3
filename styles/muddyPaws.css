@@ -7,20 +7,6 @@ a {
 	display: block;
 }
 
-/* mouse over link */
-a:hover {
-    color: hotpink;
-}
-
-body{
-  margin: auto;
-}
-
-h1 {
-  font-family: 'Bad Script', cursive;
-  color: orangered;
-}
-
 li {
 	float: left;
 	padding: 5px 30px;
@@ -43,46 +29,34 @@ p {
 }
 
 .button {
-    position:relative;
-    padding:6px 15px;
-    left:-8px;
-    border:2px solid #207cca;
-    background-color:#207cca;
-    color:#fafafa;
+  position:relative;
+  padding:6px 15px;
+  left:-8px;
+  border:2px solid #207cca;
+  background-color:#207cca;
+  color:#fafafa;
 }
 
-/*.buttonCart {
-    border-radius: 10px;
-    margin-left: 50px;
-    height: 60px;
-    width: 320px;
-    border:2px solid #B2C49D;
-    background-color:#D2D420;
-    font-size: 20px;
-}*/
-
 .buttonCart {
-    border-radius: 10px;
-    position:relative;
-    /*padding:6px 15px;*/
-    left:-8px;
-    height: 60px;
-    width: 320px;
-    border:2px solid #b2c49d;
-    background-color:#d2d420;
-    font-size: 20px;
-    /*color:#fafafa;*/
+  border-radius: 10px;
+  position:relative;
+  left:-8px;
+  height: 60px;
+  width: 320px;
+  border:2px solid #b2c49d;
+  background-color:#d2d420;
+  font-size: 20px;
 }
 
 #buttonCheckout {
-    border-radius: 10px;
-    position:relative;
-    height: 50px;
-    margin-left: 20px;
-    width: 250px;
-    border:2px solid #b2c49d;
-    background-color:#d2d420;
-    font-size: 20px;
+  border-radius: 10px;
+  position:relative;
+  height: 50px;
+  margin-left: 20px;
+  width: 250px;
+  border:2px solid #b2c49d;
+  background-color:#d2d420;
+  font-size: 20px;
 }
 
 .checkboxText {
@@ -95,67 +69,64 @@ p {
 }
 
 .colorChoice {
-    border-radius: 5px;
-    height: 20px;
-    margin: 10px;
-    width: 20px;
-    border: 2px solid #000000;
-
+  border-radius: 5px;
+  height: 20px;
+  margin: 10px;
+  width: 20px;
+  border: 2px solid #000000;
 }
 
 .footer{
-    background-color: rgb(110,129,84);
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    height: 40px;
-    /*margin: 0;*/
-    /*padding: 10;*/
-    text-align: center;
+  background-color: rgb(110,129,84);
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  height: 40px;
+  text-align: center;
 }
 
 .header{
-    background-color: rgb(110,129,84);
-    height: 100px;
-    margin: 0;
-    padding: 0;
+  background-color: rgb(110,129,84);
+  height: 100px;
+  margin: 0;
+  padding: 0;
 }
 
 .highlight {
-    border-radius: 5px;
-    height: 20px;
-    margin: 10px;
-    width: 20px;
-    border: 3px solid #2e478c;
+  border-radius: 5px;
+  height: 20px;
+  margin: 10px;
+  width: 20px;
+  border: 3px solid #2e478c;
 }
 
 .horizontalLine {
   border-top: solid #979797;
 }
 
-.left_arrow{
+#lArrow {
 	position: absolute;
 	left: 50px;
-    top: 350px;
+  top: 350px;
 }
 
-.left_arrow_products{
+#lArrowProd {
 	height: 70px;
 	position: absolute;
 	left: 50px;
-    top: 850px;
+  top: 850px;
 }
 
-.leftScreen{
+#lScreenSpecProd {
   border: 3px solid #73AD21;
   width: 50%;
 }
 
-#leftScreenCheckout {
+#lScreenCheckout {
   border: 3px solid #73AD21;
   width: 75%;
 }
 
-#leftScreenProductsPage{
+#lScreenProdPage{
   border: 3px solid #73AD21;
   width: 25%;
   margin: 0px 20px;
@@ -164,9 +135,9 @@ p {
 .muddyPawsImage{
 	position: absolute;
 	height: 95px;
-    left: 40px;
-    top: 5px;
-  	width: 95px;
+  left: 40px;
+  top: 5px;
+  width: 95px;
 }
 
 .mainPageImage{
@@ -175,18 +146,10 @@ p {
   margin: 0px 30px;
 }
 
-.mainPageProductAllInfo{
-	float:left;
-  	/*border: 3px solid #73AD21;*/
-  	width: 24%;
-  	text-align: center;
-}
-
 .mainPageProductImage{
 	height: 12em;
-  	margin: 20px 65px 0px;
-  	width: 12em;
-  	/*border: 3px solid #73AD21;*/
+  margin: 20px 65px 0px;
+  width: 12em;
 }
 
 .mainScreen{
@@ -194,10 +157,15 @@ p {
 }
 
 .popularProducts{
-    margin: auto;
-    width: 90%;
-    /*border: 3px solid #73AD21;*/
-    padding: 10px;
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.popProdInfo {
+  float:left;
+  width: 24%;
+  text-align: center;
 }
 
 .productFlow {
@@ -211,13 +179,6 @@ p {
   margin-left: 60px;
   margin-right: 150px;
 }
-
-/*.productImage{
-  height: 30em;
-  margin: 20px 65px;
-  width: 30em;
-  border: 3px solid #73AD21;
-}*/
 
 .productImage{
   height: 250px;
@@ -245,16 +206,16 @@ p {
 }
 
 .productMiniCards{
-    border-radius: 10px;
-    height: 80px;
-    width: 80px;
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
     /*padding: 15px;
     position: absolute;
     text-align: center;
     align-self: center;
     top: 590px;
     left: 450px;*/
-    border: 2px solid #999999;
+  border: 2px solid #999999;
 }
 
 /*.productMiniCards{
@@ -272,43 +233,40 @@ p {
 }*/
 
 .productTitle{
-    margin: auto;
-    width: 90%;
-    /*border: 3px solid #73AD21;*/
-    padding: 10px;
+  margin: auto;
+  width: 90%;
+  padding: 10px;
 }
 
-.right_arrow{
+#rArrow{
 	position: absolute;
 	right: 50px;
-    top: 350px;
+  top: 350px;
 }
 
-.right_arrow_products{
+#rArrowProd{
 	height: 70px;
 	position: absolute;
 	right: 50px;
-    top: 850px;
+  top: 850px;
 }
 
-.rightScreen{
+#rScreenSpecProd{
   border: 3px solid #73AD21;
   width: 50%;
 }
 
-#rightScreenCheckout {
+#rScreenCheckout {
   border: 3px solid #73AD21;
   width: 25%;
 }
 
-#rightScreenProductsPage{
+#rScreenProdPage{
   border: 3px solid #73AD21;
   width: 75%;
 }
 
 .search{
-	/*align-self: center;*/
-	/*margin: auto;*/
  	top: 50%;
  	left:50%;
 }
@@ -322,17 +280,8 @@ p {
 }
 
 .searchButton {
-  /*position: absolute;  
-  right: -50px;*/
   width: 40px;
   height: 36px;
-  /*border: 1px solid #00B4CC;
-  background: #00B4CC;
-  text-align: center;
-  color: #fff;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 20px;*/
 }
 
 .shoppingCartImage{
@@ -356,24 +305,23 @@ p {
 }
 
 .textBox{
-    background-color: rgb(110,129,84);
-    border-radius: 10px;
-    font-family: 'Lato', sans-serif;
-    height: 50px;
-    width: 600px;
-    /*margin: auto;*/
-    padding: 15px;
-    position: absolute;
-    text-align: center;
-    align-self: center;
-    top: 590px;
-    left: 450px;
+  background-color: rgb(110,129,84);
+  border-radius: 10px;
+  font-family: 'Lato', sans-serif;
+  height: 50px;
+  width: 600px;
+  padding: 15px;
+  position: absolute;
+  text-align: center;
+  align-self: center;
+  top: 590px;
+  left: 450px;
 }
 
 .topnav {
-    background-color: rgb(63,74,48);
-    height: 30px;
-    padding: 10px 25px;
+  background-color: rgb(63,74,48);
+  height: 30px;
+  padding: 10px 25px;
 }
 
 .verticalLine {
