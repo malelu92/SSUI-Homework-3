@@ -30,7 +30,7 @@ function removeFromCart(obj) {
 
 	if (items > 0) {
 		document.getElementById('shopping-cart-text').innerHTML = (items-1) + ' items';
-		elem = obj.parentNode.parentNode
+		elem = obj.parentNode.parentNode.parentNode
 		elem.remove();
 	}
 }

@@ -76,9 +76,8 @@ p {
   width: 600px;
 }
 
-#checkout-cart-info {
+.checkout-cart-info {
   font-size: 20px;
-  border: 3px solid #73AD21;
 }
 
 .checkout-header{
@@ -289,12 +288,10 @@ p {
 }
 
 #r-screen-checkout {
-  border: 3px solid #73AD21;
   width: 25%;
 }
 
 #r-screen-prod-page {
-  border: 3px solid #73AD21;
   width: 75%;
 }
 
