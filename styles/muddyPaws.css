@@ -28,15 +28,6 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
-.button {
-  background-color:#207cca;
-  border:2px solid #207cca;
-  color:#fafafa;
-  left:-8px;
-  padding:6px 15px;
-  position:relative;
-}
-
 .button-cart {
   background-color:#d2d420;
   border:2px solid #b2c49d;
@@ -57,6 +48,16 @@ p {
   margin-left: 20px;
   position:relative;
   width: 250px;
+}
+
+.button-search {
+  background-color:#207cca;
+  border:2px solid #207cca;
+  color:#fafafa;
+  height: 50%;
+  left:-8px;
+  margin: 20px 0;
+  padding:6px 15px;
 }
 
 .checkbox-text {
@@ -87,6 +88,7 @@ p {
 
 .header {
   background-color: rgb(110,129,84);
+  display: flex;
   height: 100px;
   margin: 0;
   padding: 0;
@@ -113,7 +115,7 @@ p {
 
 #l-arrow-prod {
 	height: 70px;
-  left: 50px;
+  left: 10px;
 	position: absolute;
   top: 850px;
 }
@@ -134,14 +136,6 @@ p {
   width: 25%;
 }
 
-.muddy-paws-image {
-	height: 95px;
-  left: 40px;
-  position: absolute;
-  top: 10px;
-  width: 95px;
-}
-
 .main-page-image {
   height: 30em;
   margin: 0px 30px;
@@ -150,6 +144,16 @@ p {
 
 .main-screen {
   display: flex;
+}
+
+.muddy-paws-image {
+  border: 3px solid #73AD21;
+  height: 95px;
+  left: 50px;
+  margin: 0 50px;
+  /*position: absolute;*/
+  top: 10px;
+  width: 95px;
 }
 
 #pop-prod {
@@ -240,14 +244,14 @@ p {
 }
 
 #r-arrow {
-	right: 210px;
+	right: 20px;
   position: absolute;
   top: 350px;
 }
 
 #r-arrow-prod {
 	height: 70px;
-	right: 50px;
+	right: 30px;
   position: absolute;
   top: 850px;
 }
@@ -268,36 +272,50 @@ p {
 }
 
 .search {
-  left:50%;
- 	top: 50%;
+  border: 3px solid #73AD21;
+  display: flex;
+  /*left:50%;
+ 	top: 50%;*/
+  margin: 0 100px;
+  width: 700px;
 }
 
 .search-bar {
+  border: 3px solid #73AD21;
   border-radius: 5px;
   height: 30px;
   margin: 22px;
   padding: 6px;
-  width: 50%;
+  width: 600px;
 }
 
-.search-button {
+/*.search-button {
   height: 36px;
   width: 40px;
+}*/
+
+#shopping-cart {
+  display: flex;
+  border: 3px solid #73AD21;
+  margin: 0 50px;
 }
 
 .shopping-cart-image {
+  border: 3px solid #73AD21;
 	height: 80px;
-  position: absolute;
-	right: 300px;
+  /*position: absolute;*/
+	right: 30px;
 	top: 20px;
   width: 80px;
 }
 
-.shopping-cart-text {
+#shopping-cart-text {
+  border: 3px solid #73AD21;
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
-	position: absolute;
-	right: 250px;
+	/*position: absolute;*/
+	/*right: 20px;*/
+  padding: 20px;
 	top: 57px;
 }
 
