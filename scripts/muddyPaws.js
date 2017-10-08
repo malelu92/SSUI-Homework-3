@@ -27,13 +27,17 @@ function getTotalItemsCart () {
 	return parseInt(qtyItems)
 }
 
-function removeFromCart() {
+function removeFromCart(obj) {
 	var items = getTotalItemsCart(); 
+	console.log(obj)
+	console.log(obj.parentNode.parentNode)
 
 	if (items > 0) {
 		document.getElementById('shoppingCartText').innerHTML = (items-1) + ' items';
-		elem = document.getElementById('product1');
-		elem.remove()
+		/*elem = document.getElementById('product1');
+		elem.remove();*/
+		elem = obj.parentNode.parentNode
+		elem.remove();
 	}
 }
 
