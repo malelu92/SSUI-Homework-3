@@ -23,7 +23,7 @@
     </div>
     <div>
       <img src="./resources/images/shopping_cart.png" class="shoppingCartImage" alt="shopping cart image" align="right"></img>
-      <p class="shoppingCartText" id="qtyItems">0 items</p>
+      <p id="shoppingCartText">0 items</p>
     </div>
   </div>
 
@@ -71,12 +71,12 @@
 
     <div style="display:flex" id="colors">
       <p>Color</p>
-      <div class="colorChoice" name = "strawberry" style="background-color: #b32222"></div>
-      <div class="colorChoice" style="background-color: #000000"></div>
-      <div class="colorChoice" style="background-color: #1c5699"></div>
-      <div class="colorChoice" style="background-color: #366339"></div>
-      <div class="colorChoice" style="background-color: #f6f6f0"></div>
-      <div class="colorChoice" style="background-color: #f3540a"></div>
+      <div class="colorChoice" id = "strawberry" style="background-color: #b32222" onclick="getColor()"></div>
+      <div class="colorChoice" id = "blackberry" style="background-color: #000000" onclick="getColor()"></div>
+      <div class="colorChoice" id = "crazyberry" style="background-color: #1c5699" onclick="getColor()"></div>
+      <div class="colorChoice" id = "camouflage" style="background-color: #366339" onclick="getColor()"></div>
+      <div class="colorChoice" id = "nightmoon" style="background-color: #f6f6f0" onclick="getColor()"></div>
+      <div class="colorChoice" id = "fireorange" style="background-color: #f3540a" onclick="getColor()"></div>
     </div>
 
     <div style="display:flex">
