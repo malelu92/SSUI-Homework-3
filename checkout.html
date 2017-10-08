@@ -56,9 +56,9 @@
     <div class="align-info" id="product1">
       <img src="./resources/images/dog_harness1.jpg" class="prod-img-checkout" alt="orange dog harness"></img>
       <div class="checkout-prod-info">
-        <p class="checkout-card-info">Coastal Harness</p>
-        <p class="checkout-card-info" onclick="removeFromCart(this)">1 item - <b>Remove</b></p>
-        <p class="checkout-card-info">U$ 21,90</p>
+        <p class="checkout-cart-prod">Coastal Harness</p>
+        <p class="checkout-cart-prod" onclick="removeFromCart(this)">1 item - <b>Remove</b></p>
+        <p class="checkout-cart-prod">U$ 21,90</p>
       </div>
     </div>
     <div class="horizontal-line"></div>
@@ -66,22 +66,25 @@
     <div class="align-info" id="product2">
       <img src="./resources/images/dog_harness2.jpg" class="prod-img-checkout" alt="purple dog harness"></img>
       <div class="checkout-prod-info">
-        <p class="checkout-card-info">Coastal Harness</p>
-        <p class="checkout-card-info" onclick="removeFromCart(this)">1 item - <b>Remove</b></p>
-        <p class="checkout-card-info">U$ 21,90</p>
+        <p class="checkout-cart-prod">Coastal Harness</p>
+        <p class="checkout-cart-prod" onclick="removeFromCart(this)">1 item - <b>Remove</b></p>
+        <p class="checkout-cart-prod">U$ 21,90</p>
       </div>
     </div>
 
     <div class="horizontal-line"></div>
 
-    <p style="font-size:200%;">Total U$51,98</p>
+    <p id="total-price">Total U$51,98</p>
   </div>
 
   <div class="vertical-line"></div>
 
+  <!-- shopping cart checkout info -->
   <div id="r-screen-checkout">
-    <p>2 items</p>
-    <p>Total U$ 51,98</p>
+    <div id="checkout-cart-info">
+      <p>2 items</p>
+      <p>Total U$ 51,98</p>
+    </div>
     <input type="button" id="button-checkout" value="CHECKOUT">
 
     <p>You might also like:</p>
