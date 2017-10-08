@@ -21,14 +21,30 @@ function getProductSelectChoice(id) {
         }
 }
 
+function removeFromCart() {
+	//var x = document.getElementsByClassName("checkoutCardInfo");
+	console.log("lala")
+}
+
+
 function updateShoppingCart(addQty) {
 	var cartText = document.getElementById('shoppingCartText').innerHTML;
-	console.log(cartText)
 	var qtyItems = cartText.substr(0,cartText.indexOf(' '));
-	console.log(qtyItems)
-	totalItems = parseInt(qtyItems)+addQty
+	var totalItems = parseInt(qtyItems)+addQty
+
 	document.getElementById('shoppingCartText').innerHTML = totalItems + " items";
 }
+
+/*$(document).ready(function(){
+	document.getElementById("removeItem").onclick = function(){
+		var qty = document.getElementById("qtyItems").textContent;
+		var qtyValue = parseInt(qty.substr(0,qty.indexOf(' ')));
+		if (qtyValue > 0) {
+			var inCart = qtyValue-1;
+			document.getElementById('qtyItems').innerHTML = inCart + ' items';
+		}
+}
+});*/
 
 /*function getColor() {
 	//var tag = document.getElementById("colors");
@@ -45,15 +61,6 @@ function updateShoppingCart(addQty) {
     alert(e.target.id);
 });
 */
-/*function addToCart() {
-	//alert("lala")
-	//var qty = $('#quantity').find(':selected').text();
-	var qty = document.getElementById('quantity').innerHTML;
-	console.log(qty.option.value)
-
-	console.log(qty)
-	//document.getElementById('qtyItems').innerHTML = qty + ' items';
-}*/
 
 /*$(document).ready(function(){
 	$('.colorChoice').click(function(){
