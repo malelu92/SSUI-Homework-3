@@ -17,7 +17,7 @@
   </div>
   <div>
     <img src="./resources/images/shopping_cart.png" class="shopping-cart-image" alt="shopping cart image" align="right"></img>
-    <p id="shoppingCartText">0 items</p>
+    <p id="shopping-cart-text">0 items</p>
   </div>
 </div>
 
@@ -64,14 +64,16 @@
       </select>
     </div>
 
-    <div style="display:flex" id="colors">
+    <div style="display:flex">
       <p>Color</p>
-      <div class="color-choice" id = "strawberry" style="background-color: #b32222" onclick="getColor()"></div>
-      <div class="color-choice" id = "blackberry" style="background-color: #000000" onclick="getColor()"></div>
-      <div class="color-choice" id = "crazyberry" style="background-color: #1c5699" onclick="getColor()"></div>
-      <div class="color-choice" id = "camouflage" style="background-color: #366339" onclick="getColor()"></div>
-      <div class="color-choice" id = "nightmoon" style="background-color: #f6f6f0" onclick="getColor()"></div>
-      <div class="color-choice" id = "fireorange" style="background-color: #f3540a" onclick="getColor()"></div>
+      <select id="color">
+        <option value="strawberry">strawberry</option>
+        <option value="blackberry">blackberry</option>
+        <option value="crazyberry">crazyberry</option>
+        <option value="camouflage">camouflage</option>
+        <option value="nightmoon">night moon</option>
+        <option value="fireorange">fire orange</option>
+      </select>
     </div>
 
     <div style="display:flex">

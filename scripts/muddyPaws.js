@@ -1,10 +1,7 @@
 function addToCart(){
 	size = getProductSelectChoice('size');
 	qty = parseInt(getProductSelectChoice('quantity'));
-
-	console.log(size)
-	console.log(qty)
-	//getProductColor()
+	color = getProductSelectChoice('color');
 
 	updateShoppingCart(qty)
 }
@@ -43,17 +40,6 @@ function updateShoppingCart(addQty) {
 	var totalItems = getTotalItemsCart() + addQty;
 	document.getElementById('shopping-cart-text').innerHTML = totalItems + ' items';
 }
-
-/*function getColor() {
-	//var tag = document.getElementById("colors");
-	var color = document.getElementById("strawberry");
-	console.log(color)
-	if (color.onclick) {
-		console.log("ckic")
-	}
-	//console.log(tag.children[1].getAttribute("id"))
-	//console.log(tag.children[2])
-}*/
 
 /*document.addEventListener('click', function(e) {
     alert(e.target.id);
