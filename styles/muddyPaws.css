@@ -76,7 +76,7 @@ p {
   width: 20px;
 }
 
-.footer{
+.footer {
   background-color: rgb(110,129,84);
   font-family: 'Lato', sans-serif;
   font-weight: bold;
@@ -84,7 +84,7 @@ p {
   text-align: center;
 }
 
-.header{
+.header {
   background-color: rgb(110,129,84);
   height: 100px;
   margin: 0;
@@ -132,7 +132,7 @@ p {
   width: 25%;
 }
 
-.muddy-paws-image{
+.muddy-paws-image {
 	height: 95px;
   left: 40px;
   position: absolute;
@@ -140,7 +140,7 @@ p {
   width: 95px;
 }
 
-.main-page-image{
+.main-page-image {
   height: 30em;
   margin: 0px 30px;
   width: 90em;
@@ -174,34 +174,34 @@ p {
   margin: 10px 20px;
 }
 
-#prod-group-cards{
+#prod-group-cards {
   border: 3px solid #73ad21;
   margin-left: 60px;
   margin-right: 150px;
 }
 
-.product-image{
+.product-image {
   border: 3px solid #73ad21;
   height: 250px;
   margin: 20px 65px;
   width: 250px;
 }
 
-.prod-img-checkout{
+.prod-img-checkout {
   height: 150px;
   margin: 20px 65px;
   width: 150px;
   border: 3px solid #73AD21;
 }
 
-#prod-img-sel{
+#prod-img-sel {
   height: 30em;
   margin: 20px 65px;
   width: 30em;
   border: 3px solid #73AD21;
 }
 
-.prod-mini-cards{
+.prod-mini-cards {
   border: 2px solid #999;
   border-radius: 10px;
   height: 80px;
@@ -228,26 +228,26 @@ p {
     border: 2px solid #999999;
 }*/
 
-.product-title{
+.product-title {
   margin: auto;
   padding: 10px;
   width: 90%;
 }
 
-#r-arrow{
+#r-arrow {
 	right: 50px;
   position: absolute;
   top: 350px;
 }
 
-#r-arrow-prod{
+#r-arrow-prod {
 	height: 70px;
 	right: 50px;
   position: absolute;
   top: 850px;
 }
 
-#r-screen-spec-prod{
+#r-screen-spec-prod {
   border: 3px solid #73AD21;
   width: 50%;
 }
@@ -257,12 +257,12 @@ p {
   width: 25%;
 }
 
-#r-screen-prod-page{
+#r-screen-prod-page {
   border: 3px solid #73AD21;
   width: 75%;
 }
 
-.search{
+.search {
   left:50%;
  	top: 50%;
 }
@@ -280,7 +280,7 @@ p {
   width: 40px;
 }
 
-.shopping-cart-image{
+.shopping-cart-image {
 	height: 80px;
   position: absolute;
 	right: 100px;
@@ -288,7 +288,7 @@ p {
   width: 80px;
 }
 
-.shopping-cart-text{
+.shopping-cart-text {
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	position: absolute;
@@ -296,11 +296,11 @@ p {
 	top: 57px;
 }
 
-.stars-main-page{
+.stars-main-page {
 	height: 15px;
 }
 
-.text-box{
+.text-box {
   align-self: center;
   background-color: rgb(110,129,84);
   border-radius: 10px;
