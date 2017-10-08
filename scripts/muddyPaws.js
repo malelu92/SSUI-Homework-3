@@ -21,16 +21,24 @@ function getProductSelectChoice(id) {
         }
 }
 
+function getTotalItemsCart () {
+	var cartText = document.getElementById('shoppingCartText').innerHTML;
+	var qtyItems = cartText.substr(0,cartText.indexOf(' '));
+	return parseInt(qtyItems)
+}
+
 function removeFromCart() {
 	//var x = document.getElementsByClassName("checkoutCardInfo");
+	document.getElementById('shoppingCartText').innerHTML = totalItems + " items";
 	console.log("lala")
 }
 
 
 function updateShoppingCart(addQty) {
-	var cartText = document.getElementById('shoppingCartText').innerHTML;
+	/*var cartText = document.getElementById('shoppingCartText').innerHTML;
 	var qtyItems = cartText.substr(0,cartText.indexOf(' '));
-	var totalItems = parseInt(qtyItems)+addQty
+	var totalItems = parseInt(qtyItems)+addQty*/
+	var totalItems = getTotalItemsCart() + addQty
 
 	document.getElementById('shoppingCartText').innerHTML = totalItems + " items";
 }
