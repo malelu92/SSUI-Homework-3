@@ -1,10 +1,10 @@
 a {
 	color: white;
+  display: block;
 	font-family: 'Lato', sans-serif;
+  padding: 10px 5px;
 	text-align: center;
 	text-decoration: none;
-	padding: 10px 5px;
-	display: block;
 }
 
 li {
@@ -12,7 +12,6 @@ li {
 	padding: 5px 30px;
 }
 
-/*avoid*/
 li a {
     display: block;
     padding: 8px 16px;
@@ -30,34 +29,34 @@ p {
 }
 
 .button {
-  position:relative;
-  padding:6px 15px;
-  left:-8px;
-  border:2px solid #207cca;
   background-color:#207cca;
+  border:2px solid #207cca;
   color:#fafafa;
+  left:-8px;
+  padding:6px 15px;
+  position:relative;
 }
 
 .button-cart {
-  border-radius: 10px;
-  position:relative;
-  left:-8px;
-  height: 60px;
-  width: 320px;
-  border:2px solid #b2c49d;
   background-color:#d2d420;
+  border:2px solid #b2c49d;
+  border-radius: 10px;
   font-size: 20px;
+  height: 60px;
+  left:-8px;
+  position:relative;
+  width: 320px;
 }
 
 #button-checkout {
+  background-color:#d2d420;
+  border:2px solid #b2c49d;
   border-radius: 10px;
-  position:relative;
+  font-size: 20px;
   height: 50px;
   margin-left: 20px;
+  position:relative;
   width: 250px;
-  border:2px solid #b2c49d;
-  background-color:#d2d420;
-  font-size: 20px;
 }
 
 .checkbox-text {
@@ -70,11 +69,11 @@ p {
 }
 
 .color-choice {
+  border: 2px solid #000;
   border-radius: 5px;
   height: 20px;
   margin: 10px;
   width: 20px;
-  border: 2px solid #000;
 }
 
 .footer{
@@ -93,11 +92,11 @@ p {
 }
 
 .highlight {
+  border: 3px solid #2e478c;
   border-radius: 5px;
   height: 20px;
   margin: 10px;
   width: 20px;
-  border: 3px solid #2e478c;
 }
 
 .horizontalLine {
@@ -105,15 +104,15 @@ p {
 }
 
 #l-arrow {
-	position: absolute;
 	left: 50px;
+  position: absolute;
   top: 350px;
 }
 
 #l-arrow-prod {
 	height: 70px;
+  left: 50px;
 	position: absolute;
-	left: 50px;
   top: 850px;
 }
 
@@ -129,22 +128,22 @@ p {
 
 #l-screen-prod-page{
   border: 3px solid #73AD21;
-  width: 25%;
   margin: 0px 20px;
+  width: 25%;
 }
 
 .muddy-paws-image{
-	position: absolute;
 	height: 95px;
   left: 40px;
+  position: absolute;
   top: 5px;
   width: 95px;
 }
 
 .main-page-image{
-  width: 90em;
   height: 30em;
   margin: 0px 30px;
+  width: 90em;
 }
 
 .main-screen {
@@ -153,8 +152,8 @@ p {
 
 #pop-prod {
   margin: auto;
-  width: 90%;
   padding: 10px;
+  width: 90%;
 }
 
 .pop-prod-image {
@@ -165,14 +164,14 @@ p {
 
 .pop-prod-info {
   float:left;
-  width: 24%;
   text-align: center;
+  width: 24%;
 }
 
 #prod-flow {
   font-family: 'Lato', sans-serif;
-  margin: 10px 20px;
   font-size: 20px;
+  margin: 10px 20px;
 }
 
 #prod-group-cards{
@@ -182,10 +181,10 @@ p {
 }
 
 .product-image{
+  border: 3px solid #73ad21;
   height: 250px;
   margin: 20px 65px;
   width: 250px;
-  border: 3px solid #73ad21;
 }
 
 .prod-img-checkout{
@@ -203,6 +202,7 @@ p {
 }
 
 .prod-mini-cards{
+  border: 2px solid #999;
   border-radius: 10px;
   height: 80px;
   width: 80px;
@@ -212,7 +212,6 @@ p {
     align-self: center;
     top: 590px;
     left: 450px;*/
-  border: 2px solid #999;
 }
 
 /*.productMiniCards{
@@ -231,20 +230,20 @@ p {
 
 .product-title{
   margin: auto;
-  width: 90%;
   padding: 10px;
+  width: 90%;
 }
 
 #r-arrow{
-	position: absolute;
 	right: 50px;
+  position: absolute;
   top: 350px;
 }
 
 #r-arrow-prod{
 	height: 70px;
-	position: absolute;
 	right: 50px;
+  position: absolute;
   top: 850px;
 }
 
@@ -264,29 +263,29 @@ p {
 }
 
 .search{
+  left:50%;
  	top: 50%;
- 	left:50%;
 }
 
 .search-bar {
-  width: 50%;
-  height: 30px;
   border-radius: 5px;
+  height: 30px;
   margin: 22px;
   padding: 6px;
+  width: 50%;
 }
 
 .search-button {
-  width: 40px;
   height: 36px;
+  width: 40px;
 }
 
 .shopping-cart-image{
-	position: absolute;
 	height: 80px;
-	width: 80px;
+  position: absolute;
 	right: 100px;
 	top: 20px;
+  width: 80px;
 }
 
 .shopping-cart-text{
@@ -302,17 +301,17 @@ p {
 }
 
 .text-box{
+  align-self: center;
   background-color: rgb(110,129,84);
   border-radius: 10px;
   font-family: 'Lato', sans-serif;
   height: 50px;
-  width: 600px;
+  left: 450px;
   padding: 15px;
   position: absolute;
   text-align: center;
-  align-self: center;
   top: 590px;
-  left: 450px;
+  width: 600px;
 }
 
 .top-nav {
