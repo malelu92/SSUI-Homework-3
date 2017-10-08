@@ -68,8 +68,8 @@ p {
     left:-8px;
     height: 60px;
     width: 320px;
-    border:2px solid #B2C49D;
-    background-color:#D2D420;
+    border:2px solid #b2c49d;
+    background-color:#d2d420;
     font-size: 20px;
     /*color:#fafafa;*/
 }
@@ -80,8 +80,8 @@ p {
     height: 50px;
     margin-left: 20px;
     width: 250px;
-    border:2px solid #B2C49D;
-    background-color:#D2D420;
+    border:2px solid #b2c49d;
+    background-color:#d2d420;
     font-size: 20px;
 }
 
@@ -125,7 +125,7 @@ p {
     height: 20px;
     margin: 10px;
     width: 20px;
-    border: 3px solid #2E478C;
+    border: 3px solid #2e478c;
 }
 
 .horizontalLine {
@@ -207,7 +207,7 @@ p {
 }
 
 .productGroupCards{
-  border: 3px solid #73AD21;
+  border: 3px solid #73ad21;
   margin-left: 60px;
   margin-right: 150px;
 }
@@ -223,7 +223,7 @@ p {
   height: 250px;
   margin: 20px 65px;
   width: 250px;
-  border: 3px solid #73AD21;
+  border: 3px solid #73ad21;
 }
 
 .productImageCheckout{

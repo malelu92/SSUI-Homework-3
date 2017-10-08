@@ -1,53 +1,46 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Muddy paws</title>
+<!DOCTYPE html>
+<meta charset="utf-8">
 
-  <!--The following line loads in your CSS style sheet-->
-  <link rel="stylesheet" href="styles/muddyPaws.css">
+<title>Muddy paws</title>
 
-  <!--The following line loads in 2 fonts from Google Fonts: Bad Script and Lato-->
-  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
+<link rel="stylesheet" href="styles/muddyPaws.css">
 
-  <!--The following line loads in your JS script-->
-  <script src="scripts/muddyPaws.js"></script>
-</head>
+<link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
 
-<body>
-  <div class="header">
-    <img src="./resources/images/muddy_paws_logo.png" class="muddyPawsImage" alt="image of two muddy paws" align="left"></img>
-    <div class="search" align="center">
-      <input type="text" placeholder="Search" class="searchBar">
-      <input type="button" class="button" value="Search">
-    </div>
-    <div>
-      <img src="./resources/images/shopping_cart.png" class="shoppingCartImage" alt="shopping cart image" align="right"></img>
-      <p id="shoppingCartText">0 items</p>
-    </div>
+<script src="scripts/muddyPaws.js"></script>
+
+<div class="header">
+  <img src="./resources/images/muddy_paws_logo.png" class="muddyPawsImage" alt="image of two muddy paws" align="left"></img>
+  <div class="search" align="center">
+    <input type="text" placeholder="Search" class="searchBar">
+    <input type="button" class="button" value="Search">
   </div>
-
-  <div class="topnav" id="myTopnav">
-    <ul>
-      <li><a href="productsPage.html">PRODUCTS</a></li>
-      <li><a href="#dogs">DOGS</a></li>
-      <li><a href="#cats">CATS</a></li>
-    </ul>
+  <div>
+    <img src="./resources/images/shopping_cart.png" class="shoppingCartImage" alt="shopping cart image" align="right"></img>
+    <p id="shoppingCartText">0 items</p>
   </div>
-  <!--<script src="js/todo.js"></script>-->
+</div>
 
-  <p class="productFlow">Products > Dog harness > Coastal harness</p>
+<div class="topnav" id="myTopnav">
+  <ul>
+    <li><a href="productsPage.html">PRODUCTS</a></li>
+    <li><a href="#dogs">DOGS</a></li>
+    <li><a href="#cats">CATS</a></li>
+  </ul>
+</div>
 
-  <br><br>
+<p class="productFlow">Products > Dog harness > Coastal harness</p>
 
-  <div class="mainScreen">
+<br><br>
+
+<div class="mainScreen">
   <div class="leftScreen">
-      <img src="./resources/images/dog_harness1.jpg" id="productImageSpecific" alt="orange dog harness"></img>
-      <div class="productGroupCards">
-        <img class="productMiniCards" src="./resources/images/dog_harness1.jpg" class="productMiniImage" alt="orange dog harness"></img>
-        <img class="productMiniCards" src="./resources/images/dog_harness1_2.jpg" class="productMiniImage" alt="orange dog harness"></img>
-        <img class="productMiniCards" src="./resources/images/dog_harness1.jpg" class="productMiniImage" alt="orange dog harness"></img>
-      </div>
+    <img src="./resources/images/dog_harness1.jpg" id="productImageSpecific" alt="orange dog harness"></img>
+    <div class="productGroupCards">
+      <img class="productMiniCards" src="./resources/images/dog_harness1.jpg" class="productMiniImage" alt="orange dog harness"></img>
+      <img class="productMiniCards" src="./resources/images/dog_harness1_2.jpg" class="productMiniImage" alt="orange dog harness"></img>
+      <img class="productMiniCards" src="./resources/images/dog_harness1.jpg" class="productMiniImage" alt="orange dog harness"></img>
+    </div>
   </div>
 
   <div class="rightScreen">
@@ -93,13 +86,10 @@
     <br><br><br>
     <input type="button" id="addItem" onclick="addToCart()" class="buttonCart" value="ADD TO CART">
   </div>
+</div>
 
-  </div>
 
+<div class="footer">
+  <p>CONTACT US</p>
+</div>
 
-  <div class="footer">
-    <p>CONTACT US</p>
-  </div>
-
-</body>
-</html>

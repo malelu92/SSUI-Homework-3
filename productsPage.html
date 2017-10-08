@@ -1,169 +1,160 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Muddy paws</title>
+<!DOCTYPE html>
+<meta charset="utf-8">
 
-  <!--The following line loads in your CSS style sheet-->
-  <link rel="stylesheet" href="styles/muddyPaws.css">
+<title>Muddy paws</title>
 
-  <!--The following line loads in 2 fonts from Google Fonts: Bad Script and Lato-->
-  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
+<link rel="stylesheet" href="styles/muddyPaws.css">
 
-  <!--The following line loads in your JS script-->
-  <script src="js/todo.js"></script>
-</head>
+<link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
 
-<body>
-  <div class="header">
-    <img src="./resources/images/muddy_paws_logo.png" class="muddyPawsImage" alt="image of two muddy paws" align="left"></img>
-    <div class="search" align="center">
-      <input type="text" placeholder="Search" class="searchBar">
-      <input type="button" class="button" value="Search">
+<script src="js/todo.js"></script>
+
+
+<div class="header">
+  <img src="./resources/images/muddy_paws_logo.png" class="muddyPawsImage" alt="image of two muddy paws" align="left"></img>
+  <div class="search" align="center">
+    <input type="text" placeholder="Search" class="searchBar">
+    <input type="button" class="button" value="Search">
+  </div>
+  <div>
+    <img src="./resources/images/shopping_cart.png" class="shoppingCartImage" alt="shopping cart image" align="right"></img>
+    <p class="shoppingCartText">0 items</p>
+  </div>
+</div>
+
+<div class="topnav" id="myTopnav">
+  <ul>
+    <li><a href="productsPage.html">PRODUCTS</a></li>
+    <li><a href="#dogs">DOGS</a></li>
+    <li><a href="#cats">CATS</a></li>
+  </ul>
+</div>
+
+<p>Result for <b>Dog harness</b></p>
+
+<br><br>
+
+<div style="display:flex">
+  <div id="leftScreenProductsPage">
+    <p style="font-size:200%;">Filter by:</p>
+
+    <p style="font-size:130%;">Animal</p>
+    <div>
+      <input id="checkBox" type="checkbox" id="dogsCheckbox">
+      <label for="dogsCheckbox" class="checkboxText">Dogs</label>
     </div>
     <div>
-      <img src="./resources/images/shopping_cart.png" class="shoppingCartImage" alt="shopping cart image" align="right"></img>
-      <p class="shoppingCartText">0 items</p>
+      <input id="checkBox" type="checkbox" id="catsCheckbox">
+      <label for="catsCheckbox" class="checkboxText">Cats</label>
+    </div>
+
+    <br><br>
+
+    <p style="font-size:130%;">Customer review</p>
+    <input id="checkBox" type="checkbox">
+    <img src="./resources/images/five_stars.png" class="starsMainPage" alt="five stars rating image"></img><br>
+    <input id="checkBox" type="checkbox">
+    <img src="./resources/images/four_stars.jpg" class="starsMainPage" alt="four stars rating image"></img><br>
+    <input id="checkBox" type="checkbox">
+    <img src="./resources/images/three_stars.jpg" class="starsMainPage" alt="three stars rating image"></img><br>
+    <input id="checkBox" type="checkbox">
+    <img src="./resources/images/two_stars.jpg" class="starsMainPage" alt="two stars rating image"></img><br>
+    <input id="checkBox" type="checkbox">
+    <img src="./resources/images/one_star.jpg" class="starsMainPage" alt="one star rating image"></img><br>
+
+    <br><br>
+
+    <p style="font-size:130%;">Price</p>
+    <div>
+      <input id="checkBox" type="checkbox" id="under10Checkbox">
+      <label for="under10Checkbox" class="checkboxText">Under U$ 10</label>
+    </div>
+    <div>
+      <input id="checkBox" type="checkbox" id="10to25Checkbox">
+      <label for="10to25Checkbox" class="checkboxText">U$ 10 to U$25</label>
+    </div>
+    <div>
+      <input id="checkBox" type="checkbox" id="25to50Checkbox">
+      <label for="25to50Checkbox" class="checkboxText">U$ 25 to U$50</label>
+    </div>
+    <div>
+      <input id="checkBox" type="checkbox" id="50to100Checkbox">
+      <label for="25to50Checkbox" class="checkboxText">U$ 50 to U$100</label>
+    </div>
+    <div>
+      <input id="checkBox" type="checkbox" id="above100Checkbox">
+      <label for="25to50Checkbox" class="checkboxText">Above U$ 100</label>
+    </div>
+
+    <br><br><br><br><br><br>
+    <input type="button" class="buttonCart" value="FILTER">
+  </div>
+
+  <div class="verticalLine"></div>
+
+  <div id="rightScreenProductsPage">
+  <div style="display:flex">
+    <div class="productInfo">
+      <a href="specificProductPage.html">
+        <img src="./resources/images/dog_harness1.jpg" class="productImage" alt="orange dog harness"></img>
+      </a>
+      <p>Coastal Harness</p>
+      <p>U$ 21,90
+      <img src="./resources/images/five_stars.png" class="starsMainPage" alt="five stars rating image" style="vertical-align:middle"></img>
+      </p>
+    </div>
+    <div>
+      <a href="specificProductPage.html">
+        <img src="./resources/images/dog_harness2.jpg" class="productImage" alt="purple dog harness"></img>
+      </a>
+      <p>Coastal Harness</p>
+      <p>U$ 21,90
+      <img src="./resources/images/five_stars.png" class="starsMainPage" alt="five stars rating image" style="vertical-align:middle"></img>
+      </p>
+    </div>
+    <div>
+      <a href="specificProductPage.html">
+        <img src="./resources/images/dog_harness3.png" class="productImage" alt="simple dog harness"></img>
+      </a>
+      <p>Coastal Harness</p>
+      <p>U$ 21,90
+      <img src="./resources/images/five_stars.png" class="starsMainPage" alt="five stars rating image" style="vertical-align:middle"></img>
+      </p>
     </div>
   </div>
-
-  <div class="topnav" id="myTopnav">
-    <ul>
-      <li><a href="productsPage.html">PRODUCTS</a></li>
-      <li><a href="#dogs">DOGS</a></li>
-      <li><a href="#cats">CATS</a></li>
-    </ul>
-  </div>
-  <!--<script src="js/todo.js"></script>-->
-
-  <p>Result for <b>Dog harness</b></p>
-
-  <br><br>
 
   <div style="display:flex">
-    <div id="leftScreenProductsPage">
-      <p style="font-size:200%;">Filter by:</p>
-
-      <p style="font-size:130%;">Animal</p>
-      <div>
-        <input id="checkBox" type="checkbox" id="dogsCheckbox">
-        <label for="dogsCheckbox" class="checkboxText">Dogs</label>
-      </div>
-      <div>
-        <input id="checkBox" type="checkbox" id="catsCheckbox">
-        <label for="catsCheckbox" class="checkboxText">Cats</label>
-      </div>
-
-      <br><br>
-
-      <p style="font-size:130%;">Customer review</p>
-      <input id="checkBox" type="checkbox">
-      <img src="./resources/images/five_stars.png" class="starsMainPage" alt="five stars rating image"></img><br>
-      <input id="checkBox" type="checkbox">
-      <img src="./resources/images/four_stars.jpg" class="starsMainPage" alt="four stars rating image"></img><br>
-      <input id="checkBox" type="checkbox">
-      <img src="./resources/images/three_stars.jpg" class="starsMainPage" alt="three stars rating image"></img><br>
-      <input id="checkBox" type="checkbox">
-      <img src="./resources/images/two_stars.jpg" class="starsMainPage" alt="two stars rating image"></img><br>
-      <input id="checkBox" type="checkbox">
-      <img src="./resources/images/one_star.jpg" class="starsMainPage" alt="one star rating image"></img><br>
-
-      <br><br>
-
-      <p style="font-size:130%;">Price</p>
-      <div>
-        <input id="checkBox" type="checkbox" id="under10Checkbox">
-        <label for="under10Checkbox" class="checkboxText">Under U$ 10</label>
-      </div>
-      <div>
-        <input id="checkBox" type="checkbox" id="10to25Checkbox">
-        <label for="10to25Checkbox" class="checkboxText">U$ 10 to U$25</label>
-      </div>
-      <div>
-        <input id="checkBox" type="checkbox" id="25to50Checkbox">
-        <label for="25to50Checkbox" class="checkboxText">U$ 25 to U$50</label>
-      </div>
-      <div>
-        <input id="checkBox" type="checkbox" id="50to100Checkbox">
-        <label for="25to50Checkbox" class="checkboxText">U$ 50 to U$100</label>
-      </div>
-      <div>
-        <input id="checkBox" type="checkbox" id="above100Checkbox">
-        <label for="25to50Checkbox" class="checkboxText">Above U$ 100</label>
-      </div>
-
-      <br><br><br><br><br><br>
-      <input type="button" class="buttonCart" value="FILTER">
+    <div>
+      <a href="specificProductPage.html">
+        <img src="./resources/images/dog_harness4.png" class="productImage" alt="camouflage dog harness"></img>
+      </a>
+      <p>Coastal Harness</p>
+      <p>U$ 21,90
+        <img src="./resources/images/five_stars.png" class="starsMainPage" alt="five stars rating image" style="vertical-align:middle"></img>
+      </p>
     </div>
-
-    <div class="verticalLine"></div>
-
-    <div id="rightScreenProductsPage">
-    <div style="display:flex">
-      <div class="productInfo">
-        <a href="specificProductPage.html">
-          <img src="./resources/images/dog_harness1.jpg" class="productImage" alt="orange dog harness"></img>
-        </a>
-        <p>Coastal Harness</p>
-        <p>U$ 21,90
+    <div>
+      <a href="specificProductPage.html">
+        <img src="./resources/images/dog_harness5.png" class="productImage" alt="new york dog harness"></img>
+      </a>
+      <p>Coastal Harness</p>
+      <p>U$ 21,90
         <img src="./resources/images/five_stars.png" class="starsMainPage" alt="five stars rating image" style="vertical-align:middle"></img>
-        </p>
-      </div>
-      <div>
-        <a href="specificProductPage.html">
-          <img src="./resources/images/dog_harness2.jpg" class="productImage" alt="purple dog harness"></img>
-        </a>
-        <p>Coastal Harness</p>
-        <p>U$ 21,90
-        <img src="./resources/images/five_stars.png" class="starsMainPage" alt="five stars rating image" style="vertical-align:middle"></img>
-        </p>
-      </div>
-      <div>
-        <a href="specificProductPage.html">
-          <img src="./resources/images/dog_harness3.png" class="productImage" alt="simple dog harness"></img>
-        </a>
-        <p>Coastal Harness</p>
-        <p>U$ 21,90
-        <img src="./resources/images/five_stars.png" class="starsMainPage" alt="five stars rating image" style="vertical-align:middle"></img>
-        </p>
-      </div>
+      </p>
     </div>
-
-    <div style="display:flex">
-      <div>
-        <a href="specificProductPage.html">
-          <img src="./resources/images/dog_harness4.png" class="productImage" alt="orange dog harness"></img>
-        </a>
-        <p>Coastal Harness</p>
-        <p>U$ 21,90
+    <div>
+      <a href="specificProductPage.html">
+        <img src="./resources/images/dog_harness6.png" class="productImage" alt="simple dog harness"></img>
+      </a>
+      <p>Coastal Harness</p>
+      <p>U$ 21,90
         <img src="./resources/images/five_stars.png" class="starsMainPage" alt="five stars rating image" style="vertical-align:middle"></img>
-        </p>
-      </div>
-      <div>
-        <a href="specificProductPage.html">
-          <img src="./resources/images/dog_harness5.png" class="productImage" alt="purple dog harness"></img>
-        </a>
-        <p>Coastal Harness</p>
-        <p>U$ 21,90
-        <img src="./resources/images/five_stars.png" class="starsMainPage" alt="five stars rating image" style="vertical-align:middle"></img>
-        </p>
-      </div>
-      <div>
-        <a href="specificProductPage.html">
-          <img src="./resources/images/dog_harness6.png" class="productImage" alt="simple dog harness"></img>
-        </a>
-        <p>Coastal Harness</p>
-        <p>U$ 21,90
-        <img src="./resources/images/five_stars.png" class="starsMainPage" alt="five stars rating image" style="vertical-align:middle"></img>
-        </p>
-      </div>
+      </p>
     </div>
   </div>
-  </div>
+</div>
+</div>
 
-  <div class="footer">
-    <p>CONTACT US</p>
-  </div>
-
-</body>
-</html>
+<div class="footer">
+  <p>CONTACT US</p>
+</div>
