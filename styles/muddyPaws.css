@@ -82,6 +82,7 @@ p {
   font-weight: bold;
   height: 40px;
   text-align: center;
+  width: 1366px;
 }
 
 .header {
@@ -89,6 +90,7 @@ p {
   height: 100px;
   margin: 0;
   padding: 0;
+  width: 1366px;
 }
 
 .highlight {
@@ -104,7 +106,7 @@ p {
 }
 
 #l-arrow {
-	left: 50px;
+	left: 10px;
   position: absolute;
   top: 350px;
 }
@@ -136,14 +138,14 @@ p {
 	height: 95px;
   left: 40px;
   position: absolute;
-  top: 5px;
+  top: 10px;
   width: 95px;
 }
 
 .main-page-image {
   height: 30em;
   margin: 0px 30px;
-  width: 90em;
+  width: 80em;
 }
 
 .main-screen {
@@ -157,15 +159,18 @@ p {
 }
 
 .pop-prod-image {
+  border: 3px solid #73ad21;
   height: 12em;
-  margin: 20px 65px 0px;
+  /*left: 100px;*/
+  margin: 20px 55px 0;
   width: 12em;
 }
 
 .pop-prod-info {
+  border: 3px solid #73ad21;
   float:left;
   text-align: center;
-  width: 24%;
+  width: 20%;
 }
 
 #prod-flow {
@@ -235,7 +240,7 @@ p {
 }
 
 #r-arrow {
-	right: 50px;
+	right: 210px;
   position: absolute;
   top: 350px;
 }
@@ -283,7 +288,7 @@ p {
 .shopping-cart-image {
 	height: 80px;
   position: absolute;
-	right: 100px;
+	right: 300px;
 	top: 20px;
   width: 80px;
 }
@@ -292,7 +297,7 @@ p {
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	position: absolute;
-	right: 50px;
+	right: 250px;
 	top: 57px;
 }
 
@@ -306,7 +311,7 @@ p {
   border-radius: 10px;
   font-family: 'Lato', sans-serif;
   height: 50px;
-  left: 450px;
+  left: 350px;
   padding: 15px;
   position: absolute;
   text-align: center;
@@ -317,7 +322,8 @@ p {
 .top-nav {
   background-color: rgb(63,74,48);
   height: 30px;
-  padding: 10px 25px;
+  padding: 10px 0;
+  width: 1366px;
 }
 
 .vertical-line {

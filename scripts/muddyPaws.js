@@ -40,16 +40,3 @@ function updateShoppingCart(addQty) {
 	var totalItems = getTotalItemsCart() + addQty;
 	document.getElementById('shopping-cart-text').innerHTML = totalItems + ' items';
 }
-
-/*document.addEventListener('click', function(e) {
-    alert(e.target.id);
-});
-*/
-
-/*$(document).ready(function(){
-	$('.colorChoice').click(function(){
-		$('.colorChoice').removeClass('highlight');
-		$('.highlight').addClass('highlight');
-		$(this).addClass('highlight');
-	});
-});*/
