@@ -34,7 +34,6 @@ p {
   border-radius: 10px;
   font-size: 20px;
   height: 60px;
-  left:-8px;
   position:relative;
   width: 320px;
 }
@@ -68,12 +67,8 @@ p {
   margin-top: 6em;
 }
 
-.color-choice {
-  border: 2px solid #000;
-  border-radius: 5px;
-  height: 20px;
-  margin: 10px;
-  width: 20px;
+#color {
+  margin: 18px 20px;
 }
 
 #filter-by {
@@ -128,7 +123,6 @@ p {
 }
 
 #l-screen-spec-prod {
-  border: 3px solid #73AD21;
   width: 50%;
 }
 
@@ -178,6 +172,10 @@ p {
   width: 20%;
 }
 
+#price-info {
+  font-size: 250%;
+}
+
 #prod-flow {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
@@ -185,7 +183,6 @@ p {
 }
 
 #prod-group-cards {
-  border: 3px solid #73ad21;
   margin-left: 60px;
   margin-right: 150px;
 }
@@ -207,7 +204,6 @@ p {
   height: 30em;
   margin: 20px 65px;
   width: 30em;
-  border: 3px solid #73AD21;
 }
 
 .prod-info {
@@ -219,35 +215,20 @@ p {
   border: 2px solid #999;
   border-radius: 10px;
   height: 80px;
+  margin: 0px 30px;
   width: 80px;
-    /*padding: 15px;
-    position: absolute;
-    text-align: center;
-    align-self: center;
-    top: 590px;
-    left: 450px;*/
 }
 
-/*.productMiniCards{
-    border-radius: 10px;
-    height: 80px;
-    width: 80px;
-    margin-left: 50px;
-    /*padding: 15px;
-    position: absolute;
-    text-align: center;
-    align-self: center;
-    top: 590px;
-    left: 450px;*
-    border: 2px solid #999999;
-}*/
+#prod-name {
+  font-size:300%;
+}
 
 .prod-row {
   display: flex;
   width: 950px;
 }
 
-#prod-screen {
+.prod-screen {
   display: flex;
 }
 
@@ -255,6 +236,10 @@ p {
   margin: auto;
   padding: 10px;
   width: 90%;
+}
+
+#quantity {
+  margin: 18px 20px;
 }
 
 #r-arrow {
@@ -271,7 +256,8 @@ p {
 }
 
 #r-screen-spec-prod {
-  border: 3px solid #73AD21;
+  left: 60px;
+  position: relative;
   width: 50%;
 }
 
@@ -321,6 +307,10 @@ p {
 	font-weight: bold;
   padding: 20px;
 	top: 57px;
+}
+
+#size {
+  margin: 18px 20px;
 }
 
 .stars-main-page {
