@@ -5,7 +5,7 @@
   <title>Muddy paws</title>
 
   <!--The following line loads in your CSS style sheet-->
-  <link rel="stylesheet" href="styles/checkout.css">
+  <link rel="stylesheet" href="styles/muddyPaws.css">
 
   <!--The following line loads in 2 fonts from Google Fonts: Bad Script and Lato-->
   <link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
@@ -49,9 +49,9 @@
   <div class="horizontalLine"></div>
 
   <div style="display:flex">
-    <div class="leftScreen">
+    <div id="leftScreenCheckout">
       <div style="display:flex" id="product1">
-        <img src="./resources/images/dog_harness1.jpg" class="productImage" alt="orange dog harness"></img>
+        <img src="./resources/images/dog_harness1.jpg" class="productImageCheckout" alt="orange dog harness"></img>
         <p class="checkoutCardInfo">Coastal Harness</p>
         <div style="display:flex">
           <select id="quantity">
@@ -67,7 +67,7 @@
       </div>
       <div class="horizontalLine"></div>
       <div style="display:flex" id="product2">
-        <img src="./resources/images/dog_harness2.jpg" class="productImage" alt="purple dog harness"></img>
+        <img src="./resources/images/dog_harness2.jpg" class="productImageCheckout" alt="purple dog harness"></img>
         <p class="checkoutCardInfo">Coastal Harness</p>
         <div style="display:flex">
           <select id="quantity">
@@ -89,16 +89,16 @@
 
     <div class="verticalLine"></div>
 
-    <div class="rightScreen">
+    <div id="rightScreenCheckout">
 
       <p>2 items</p>
       <p>Total U$ 51,98</p>
-      <input type="button" class="buttonCart" value="CHECKOUT">
+      <input type="button" id="buttonCheckout" value="CHECKOUT">
 
       <p>You might also like:</p>
 
       <div class="productInfo" style="display:flex">
-        <img src="./resources/images/dog_harness1.jpg" class="productImage" alt="orange dog harness"></img>
+        <img src="./resources/images/dog_harness1.jpg" class="productImageCheckout" alt="orange dog harness"></img>
         <div>
           <p>Coastal Harness</p>
           <p>U$ 21,90</p>
@@ -106,7 +106,7 @@
         </div>
       </div>
       <div class="productInfo" style="display:flex">
-        <img src="./resources/images/dog_harness2.jpg" class="productImage" alt="purple dog harness"></img>
+        <img src="./resources/images/dog_harness2.jpg" class="productImageCheckout" alt="purple dog harness"></img>
         <div>
           <p>Coastal Harness</p>
           <p>U$ 21,90</p>

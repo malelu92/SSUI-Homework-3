@@ -28,14 +28,11 @@ function getTotalItemsCart () {
 }
 
 function removeFromCart(obj) {
-	var items = getTotalItemsCart(); 
-	console.log(obj)
-	console.log(obj.parentNode.parentNode)
+	var items = getTotalItemsCart();
+	var elem;
 
 	if (items > 0) {
 		document.getElementById('shoppingCartText').innerHTML = (items-1) + ' items';
-		/*elem = document.getElementById('product1');
-		elem.remove();*/
 		elem = obj.parentNode.parentNode
 		elem.remove();
 	}
@@ -46,17 +43,6 @@ function updateShoppingCart(addQty) {
 	var totalItems = getTotalItemsCart() + addQty;
 	document.getElementById('shoppingCartText').innerHTML = totalItems + ' items';
 }
-
-/*$(document).ready(function(){
-	document.getElementById("removeItem").onclick = function(){
-		var qty = document.getElementById("qtyItems").textContent;
-		var qtyValue = parseInt(qty.substr(0,qty.indexOf(' ')));
-		if (qtyValue > 0) {
-			var inCart = qtyValue-1;
-			document.getElementById('qtyItems').innerHTML = inCart + ' items';
-		}
-}
-});*/
 
 /*function getColor() {
 	//var tag = document.getElementById("colors");
