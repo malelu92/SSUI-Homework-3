@@ -41,11 +41,13 @@
 
 <br><br>
 
-<div style="display:flex">
-  <div id="lScreenProdPage">
-    <p style="font-size:200%;">Filter by:</p>
+<div id="prod-screen">
+  <!-- filter options -->
+  <div id="l-screen-prod-page">
+    <p id="filter-by">Filter by:</p>
 
-    <p style="font-size:130%;">Animal</p>
+    <!-- filter by animal -->
+    <p class="filter-opt">Animal</p>
     <div>
       <input id="checkBox" type="checkbox" id="dogsCheckbox">
       <label for="dogsCheckbox" class="checkbox-text">Dogs</label>
@@ -57,7 +59,8 @@
 
     <br><br>
 
-    <p style="font-size:130%;">Customer review</p>
+    <!-- filter by review -->
+    <p class="filter-opt"">Customer review</p>
     <input id="checkBox" type="checkbox">
     <img src="./resources/images/five_stars.png" class="stars-main-page" alt="five stars rating image"></img><br>
     <input id="checkBox" type="checkbox">
@@ -71,7 +74,8 @@
 
     <br><br>
 
-    <p style="font-size:130%;">Price</p>
+    <!-- filter by price -->
+    <p class="filter-opt"">Price</p>
     <div>
       <input id="checkBox" type="checkbox" id="under10Checkbox">
       <label for="under10Checkbox" class="checkbox-text">Under U$ 10</label>
@@ -94,69 +98,83 @@
     </div>
 
     <br><br><br><br><br><br>
+    <!-- filter button -->
     <input type="button" class="button-cart" value="FILTER">
   </div>
 
   <div class="vertical-line"></div>
 
+  <!-- products view -->
   <div id="rScreenProdPage">
-  <div style="display:flex">
-    <div>
-      <a href="specificProductPage.html">
-        <img src="./resources/images/dog_harness1.jpg" class="product-image" alt="orange dog harness"></img>
-      </a>
-      <p>Coastal Harness</p>
-      <p>U$ 21,90
-      <img src="./resources/images/five_stars.png" class="stars-main-page" alt="five stars rating image" style="vertical-align:middle"></img>
-      </p>
+    <div class="prod-row">
+      <div>
+        <a href="specificProductPage.html">
+          <img src="./resources/images/dog_harness1.jpg" class="prod-image" alt="orange dog harness"></img>
+        </a>
+        <div class="prod-info">
+          <p>Coastal Harness</p>
+          <p>U$ 21,90
+            <img src="./resources/images/five_stars.png" class="stars-main-page" alt="five stars rating image"></img>
+          </p>
+        </div>
+      </div>
+      <div>
+        <a href="specificProductPage.html">
+          <img src="./resources/images/dog_harness2.jpg" class="prod-image" alt="purple dog harness"></img>
+        </a>
+        <div class="prod-info">
+          <p>Coastal Harness</p>
+          <p>U$ 21,90
+            <img src="./resources/images/five_stars.png" class="stars-main-page" alt="five stars rating image"></img>
+          </p>
+        </div>
+      </div>
+      <div>
+        <a href="specificProductPage.html">
+          <img src="./resources/images/dog_harness3.png" class="prod-image" alt="simple dog harness"></img>
+        </a>
+        <div class="prod-info">
+          <p>Coastal Harness</p>
+          <p>U$ 21,90
+            <img src="./resources/images/five_stars.png" class="stars-main-page" alt="five stars rating image"></img>
+          </p>
+        </div>
+      </div>
     </div>
-    <div>
-      <a href="specificProductPage.html">
-        <img src="./resources/images/dog_harness2.jpg" class="product-image" alt="purple dog harness"></img>
-      </a>
-      <p>Coastal Harness</p>
-      <p>U$ 21,90
-      <img src="./resources/images/five_stars.png" class="stars-main-page" alt="five stars rating image" style="vertical-align:middle"></img>
-      </p>
-    </div>
-    <div>
-      <a href="specificProductPage.html">
-        <img src="./resources/images/dog_harness3.png" class="product-image" alt="simple dog harness"></img>
-      </a>
-      <p>Coastal Harness</p>
-      <p>U$ 21,90
-      <img src="./resources/images/five_stars.png" class="stars-main-page" alt="five stars rating image" style="vertical-align:middle"></img>
-      </p>
-    </div>
-  </div>
 
-  <div style="display:flex">
-    <div>
+    <div class="prod-row">
+      <div>
       <a href="specificProductPage.html">
-        <img src="./resources/images/dog_harness4.png" class="product-image" alt="camouflage dog harness"></img>
+        <img src="./resources/images/dog_harness4.png" class="prod-image" alt="camouflage dog harness"></img>
       </a>
-      <p>Coastal Harness</p>
-      <p>U$ 21,90
-        <img src="./resources/images/five_stars.png" class="stars-main-page" alt="five stars rating image" style="vertical-align:middle"></img>
-      </p>
+      <div class="prod-info">
+        <p>Coastal Harness</p>
+        <p>U$ 21,90
+          <img src="./resources/images/five_stars.png" class="stars-main-page" alt="five stars rating image"></img>
+        </p>
+      </div>
     </div>
     <div>
       <a href="specificProductPage.html">
-        <img src="./resources/images/dog_harness5.png" class="product-image" alt="new york dog harness"></img>
+        <img src="./resources/images/dog_harness5.png" class="prod-image" alt="new york dog harness"></img>
       </a>
-      <p>Coastal Harness</p>
-      <p>U$ 21,90
-        <img src="./resources/images/five_stars.png" class="stars-main-page" alt="five stars rating image" style="vertical-align:middle"></img>
-      </p>
+      <div class="prod-info">
+        <p>Coastal Harness</p>
+        <p>U$ 21,90
+          <img src="./resources/images/five_stars.png" class="stars-main-page" alt="five stars rating image"></img>
+        </p>
+      </div>
     </div>
     <div>
       <a href="specificProductPage.html">
-        <img src="./resources/images/dog_harness6.png" class="product-image" alt="simple dog harness"></img>
+        <img src="./resources/images/dog_harness6.png" class="prod-image" alt="simple dog harness"></img>
       </a>
-      <p>Coastal Harness</p>
-      <p>U$ 21,90
-        <img src="./resources/images/five_stars.png" class="stars-main-page" alt="five stars rating image" style="vertical-align:middle"></img>
-      </p>
+      <div class="prod-info">
+        <p>Coastal Harness</p>
+        <p>U$ 21,90
+          <img src="./resources/images/five_stars.png" class="stars-main-page" alt="five stars rating image"></img>
+        </p>
+      </div>
     </div>
   </div>
 </div>
