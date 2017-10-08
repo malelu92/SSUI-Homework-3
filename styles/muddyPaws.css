@@ -12,6 +12,7 @@ li {
 	padding: 5px 30px;
 }
 
+/*avoid*/
 li a {
     display: block;
     padding: 8px 16px;
@@ -37,7 +38,7 @@ p {
   color:#fafafa;
 }
 
-.buttonCart {
+.button-cart {
   border-radius: 10px;
   position:relative;
   left:-8px;
@@ -48,7 +49,7 @@ p {
   font-size: 20px;
 }
 
-#buttonCheckout {
+#button-checkout {
   border-radius: 10px;
   position:relative;
   height: 50px;
@@ -59,21 +60,21 @@ p {
   font-size: 20px;
 }
 
-.checkboxText {
+.checkbox-text {
   font-family: 'Lato', sans-serif;
 }
 
-.checkoutCardInfo {
+.checkout-card-info {
   margin-left: 7em;
   margin-top: 6em;
 }
 
-.colorChoice {
+.color-choice {
   border-radius: 5px;
   height: 20px;
   margin: 10px;
   width: 20px;
-  border: 2px solid #000000;
+  border: 2px solid #000;
 }
 
 .footer{
@@ -103,36 +104,36 @@ p {
   border-top: solid #979797;
 }
 
-#lArrow {
+#l-arrow {
 	position: absolute;
 	left: 50px;
   top: 350px;
 }
 
-#lArrowProd {
+#l-arrow-prod {
 	height: 70px;
 	position: absolute;
 	left: 50px;
   top: 850px;
 }
 
-#lScreenSpecProd {
+#l-screen-spec-prod {
   border: 3px solid #73AD21;
   width: 50%;
 }
 
-#lScreenCheckout {
+#l-screen-checkout {
   border: 3px solid #73AD21;
   width: 75%;
 }
 
-#lScreenProdPage{
+#l-screen-prod-page{
   border: 3px solid #73AD21;
   width: 25%;
   margin: 0px 20px;
 }
 
-.muddyPawsImage{
+.muddy-paws-image{
 	position: absolute;
 	height: 95px;
   left: 40px;
@@ -140,68 +141,68 @@ p {
   width: 95px;
 }
 
-.mainPageImage{
+.main-page-image{
   width: 90em;
   height: 30em;
   margin: 0px 30px;
 }
 
-.mainScreen {
+.main-screen {
   display: flex;
 }
 
-#popProd {
+#pop-prod {
   margin: auto;
   width: 90%;
   padding: 10px;
 }
 
-.popProdImage {
+.pop-prod-image {
   height: 12em;
   margin: 20px 65px 0px;
   width: 12em;
 }
 
-.popProdInfo {
+.pop-prod-info {
   float:left;
   width: 24%;
   text-align: center;
 }
 
-#prodFlow {
+#prod-flow {
   font-family: 'Lato', sans-serif;
   margin: 10px 20px;
   font-size: 20px;
 }
 
-#prodGroupCards{
+#prod-group-cards{
   border: 3px solid #73ad21;
   margin-left: 60px;
   margin-right: 150px;
 }
 
-.productImage{
+.product-image{
   height: 250px;
   margin: 20px 65px;
   width: 250px;
   border: 3px solid #73ad21;
 }
 
-.prodImgCheckout{
+.prod-img-checkout{
   height: 150px;
   margin: 20px 65px;
   width: 150px;
   border: 3px solid #73AD21;
 }
 
-#prodImgSel{
+#prod-img-sel{
   height: 30em;
   margin: 20px 65px;
   width: 30em;
   border: 3px solid #73AD21;
 }
 
-.productMiniCards{
+.prod-mini-cards{
   border-radius: 10px;
   height: 80px;
   width: 80px;
@@ -211,7 +212,7 @@ p {
     align-self: center;
     top: 590px;
     left: 450px;*/
-  border: 2px solid #999999;
+  border: 2px solid #999;
 }
 
 /*.productMiniCards{
@@ -228,36 +229,36 @@ p {
     border: 2px solid #999999;
 }*/
 
-.productTitle{
+.product-title{
   margin: auto;
   width: 90%;
   padding: 10px;
 }
 
-#rArrow{
+#r-arrow{
 	position: absolute;
 	right: 50px;
   top: 350px;
 }
 
-#rArrowProd{
+#r-arrow-prod{
 	height: 70px;
 	position: absolute;
 	right: 50px;
   top: 850px;
 }
 
-#rScreenSpecProd{
+#r-screen-spec-prod{
   border: 3px solid #73AD21;
   width: 50%;
 }
 
-#rScreenCheckout {
+#r-screen-checkout {
   border: 3px solid #73AD21;
   width: 25%;
 }
 
-#rScreenProdPage{
+#r-screen-prod-page{
   border: 3px solid #73AD21;
   width: 75%;
 }
@@ -267,7 +268,7 @@ p {
  	left:50%;
 }
 
-.searchBar {
+.search-bar {
   width: 50%;
   height: 30px;
   border-radius: 5px;
@@ -275,12 +276,12 @@ p {
   padding: 6px;
 }
 
-.searchButton {
+.search-button {
   width: 40px;
   height: 36px;
 }
 
-.shoppingCartImage{
+.shopping-cart-image{
 	position: absolute;
 	height: 80px;
 	width: 80px;
@@ -288,7 +289,7 @@ p {
 	top: 20px;
 }
 
-.shoppingCartText{
+.shopping-cart-text{
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	position: absolute;
@@ -296,11 +297,11 @@ p {
 	top: 57px;
 }
 
-.starsMainPage{
+.stars-main-page{
 	height: 15px;
 }
 
-.textBox{
+.text-box{
   background-color: rgb(110,129,84);
   border-radius: 10px;
   font-family: 'Lato', sans-serif;
@@ -314,12 +315,12 @@ p {
   left: 450px;
 }
 
-.topnav {
+.top-nav {
   background-color: rgb(63,74,48);
   height: 30px;
   padding: 10px 25px;
 }
 
-.verticalLine {
+.vertical-line {
   border-left: solid #979797;
 }
