@@ -28,6 +28,10 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
+.align-info {
+  display: flex;
+}
+
 .button-cart {
   background-color:#d2d420;
   border:2px solid #b2c49d;
@@ -58,13 +62,37 @@ p {
   padding:6px 15px;
 }
 
-.checkbox-text {
-  font-family: 'Lato', sans-serif;
+#checkout-header-info {
+  display: flex; 
+  border: 3px solid #73AD21;
+  left: 200px;
+  position: relative;
+  width: 800px;
 }
 
 .checkout-card-info {
-  margin-left: 7em;
-  margin-top: 6em;
+  border: 3px solid #73AD21;
+  /*margin-left: 70px;
+  margin-top: 60px;*/
+  position: relative;
+  height: 40px;
+  margin: 70px 30px;
+  width: 600px;
+}
+
+.checkout-header{
+  margin: 0 100px;
+}
+
+.checkout-prod-info {
+  display: flex;
+  position: relative;
+  border: 3px solid #73AD21;
+  width: 800px;
+}
+
+.checkbox-text {
+  font-family: 'Lato', sans-serif;
 }
 
 #color {
@@ -105,7 +133,7 @@ p {
   width: 20px;
 }
 
-.horizontalLine {
+.horizontal-line {
   border-top: solid #979797;
 }
 
@@ -195,7 +223,7 @@ p {
 
 .prod-img-checkout {
   height: 150px;
-  margin: 20px 65px;
+  margin: 20px 30px;
   width: 150px;
   border: 3px solid #73AD21;
 }

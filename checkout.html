@@ -40,46 +40,36 @@
 
 <br><br>
 
-<div class="checkout-header" style="display:flex">
-  <p style="margin-left: 18em;">Item</p>
-  <p style="margin-left: 18em;">Quantity</p>
-  <p style="margin-left: 18em;">Price</p>
+<!-- products header info -->
+<div id="checkout-header-info">
+  <p class="checkout-header">Item</p>
+  <p class="checkout-header">Quantity</p>
+  <p class="checkout-header">Price</p>
 </div>
 
 <div class="horizontal-line"></div>
 
-<div style="display:flex">
+<div class="align-info">
+  <!-- selected products -->
   <div id="l-screen-checkout">
-    <div style="display:flex" id="product1">
+    <!-- product 1 -->
+    <div class="align-info" id="product1">
       <img src="./resources/images/dog_harness1.jpg" class="prod-img-checkout" alt="orange dog harness"></img>
-      <p class="checkout-card-info">Coastal Harness</p>
-      <div style="display:flex">
-        <select id="quantity">
-          <option value="one">1</option>
-          <option value="two">2</option>
-          <option value="three">3</option>
-          <option value="four">4</option>
-          <option value="five">5</option>
-        </select>
-        <p class="checkout-card-info" onclick="removeFromCart(this)">Remove</p>
+      <div class="checkout-prod-info">
+        <p class="checkout-card-info">Coastal Harness</p>
+        <p class="checkout-card-info" onclick="removeFromCart(this)">1 item - <b>Remove</b></p>
+        <p class="checkout-card-info">U$ 21,90</p>
       </div>
-      <p class="checkout-card-info">U$ 21,90</p>
     </div>
     <div class="horizontal-line"></div>
-    <div style="display:flex" id="product2">
+    <!-- product 2 -->
+    <div class="align-info" id="product2">
       <img src="./resources/images/dog_harness2.jpg" class="prod-img-checkout" alt="purple dog harness"></img>
-      <p class="checkout-card-info">Coastal Harness</p>
-      <div style="display:flex">
-        <select id="quantity">
-          <option value="one">1</option>
-          <option value="two">2</option>
-          <option value="three">3</option>
-          <option value="four">4</option>
-          <option value="five">5</option>
-        </select>
-        <p class="checkout-card-info" onclick="removeFromCart(this)">Remove</p>
+      <div class="checkout-prod-info">
+        <p class="checkout-card-info">Coastal Harness</p>
+        <p class="checkout-card-info" onclick="removeFromCart(this)">1 item - <b>Remove</b></p>
+        <p class="checkout-card-info">U$ 21,90</p>
       </div>
-      <p class="checkout-card-info">U$ 21,90</p>
     </div>
 
     <div class="horizontal-line"></div>
